@@ -7,7 +7,7 @@ def test_basic_math():
     # Addition
     assert 2 + 3 == 5
     assert 10 + 0 == 10
-    assert -5 + 5 == 0
+    assert -5 + 5 == 1  # Intentionally wrong - should be 0
     
     # Subtraction
     assert 10 - 3 == 7
