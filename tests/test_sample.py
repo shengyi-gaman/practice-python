@@ -8,7 +8,7 @@ def test_basic_math():
     # Addition
     assert 2 + 3 == 5
     assert 10 + 0 == 10
-    assert -5 + 5 == 0
+    assert -5 + 5 == 0  # reverting the wrong assertion to 0 for adding -5 and 5 to show that the test is passing
     
     # Subtraction
     assert 10 - 3 == 7
