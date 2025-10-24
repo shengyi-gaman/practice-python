@@ -5,7 +5,7 @@ def test_truth():
 def test_basic_math():
     """Test basic mathematical operations"""
     # Addition
-    assert 2 + 3 == 5
+    assert 2 + 3 == 6    
     assert 10 + 0 == 10
     assert -5 + 5 == 0
     
