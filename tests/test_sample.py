@@ -6,7 +6,7 @@ def test_basic_math():
     """Test basic mathematical operations"""
     print("Running basic math tests...")
     # Addition
-    assert 2 + 3 == 5
+    assert 2 + 3 == 5    
     assert 10 + 0 == 10
     assert -5 + 5 == 0  # reverting the wrong assertion to 0 for adding -5 and 5 to show that the test is passing
     
