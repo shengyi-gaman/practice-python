@@ -2,6 +2,28 @@ def test_truth():
     assert True
 
 
+def test_string_operations():
+    """Test basic string operations"""
+    print("Running string operation tests...")
+
+    # String concatenation
+    assert "Hello" + " " + "World" == "Hello World"
+
+    # String length
+    assert len("Python") == 6  # fix
+    assert len("") == 0
+
+    # String upper/lower case
+    assert "hello".upper() == "HELLO"
+    assert "WORLD".lower() == "world"
+
+    # String slicing
+    text = "Python"
+    assert text[0] == "P"
+    assert text[-1] == "n"
+    assert text[1:4] == "yth"
+
+
 def test_basic_math():
     """Test basic mathematical operations"""
     print("Running basic math tests...")
