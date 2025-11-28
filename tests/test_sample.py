@@ -10,7 +10,7 @@ def test_string_operations():
     assert "Hello" + " " + "World" == "Hello World"
 
     # String length
-    assert len("Python") == 6
+    assert len("Python") == 7  # Intentional failure: Python has 6 characters, not 7
     assert len("") == 0
 
     # String upper/lower case
