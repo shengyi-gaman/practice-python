@@ -15,7 +15,7 @@ def test_multiply():
     # assert multiply(4, 3) == 12
 
     # Intentional failure to trigger CI
-    assert multiply(4, 3) == 14 
+    assert multiply(4, 3) == 12
 
 def test_add():
-    assert add(4, 3) == 9
+    assert add(4, 3) == 7
