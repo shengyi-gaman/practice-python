@@ -136,3 +136,16 @@ def calculate_circle_circumference(radius: Union[int, float]) -> float:
     if radius < 0:
         raise ValueError("Radius cannot be negative")
     return 2 * math.pi * radius
+
+def add(a: int, b: int) -> int:
+    """
+    Return the sum of two numbers.
+    
+    Args:
+        a: First number
+        b: Second number
+        
+    Returns:
+        Sum of a and b
+    """
+    return a + b
